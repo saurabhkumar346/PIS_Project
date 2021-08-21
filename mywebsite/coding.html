@@ -1,0 +1,133 @@
+<?php   
+
+?>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Student Activity Management System</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="index.html">S.A.M.System</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a class="drop" >Activity</a>
+          <ul>
+            
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="cultural.html">Cultural</a></li>
+            <li><a href="coding.html">Programming and Coding</a></li>
+          </ul>
+        </li>
+
+        <li><a href="https://www.nitk.ac.in//">NITK</a></li>
+        
+        <li><a href="http://recsonbhadra.ac.in/">REC Sonbhadra</a></li>
+        <li><a href="https://aktu.ac.in/">A.K.T.U.</a></li>
+        <li><a href="https://www.aicte-india.org/">AICTE</a></li>
+        <li><a class="drop">Logout</a>
+          <ul>
+            <li><a href="http://localhost/admin/logout.php">Logout</a></li>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </nav>
+  </header>
+</div>
+<!-- ################################################################################################ -->
+
+
+<!-- ################################################################################################ -->
+
+<div class="wrapper row2">
+  <section id="latest" class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Coding & Programmng Activity</h6>
+      <p>Everything is theoretically impossible until it is done.</p>
+    </div>
+    <ul class="nospace group">
+      <li class="one_third">
+        <figure><a class="imgover" href="#"><img src="images/code/code.jpg" alt=""></a>
+          <figcaption>Competitive Programming</figcaption>
+        </figure>
+      </li>
+      <li class="one_third">
+        <figure><a class="imgover" href="#"><img src="images/code/web.jpg" alt=""></a>
+          <figcaption>Web Development</figcaption>
+        </figure>
+      </li>
+      <li class="one_third">
+        <figure><a class="imgover" href="#"><img src="images/code/Mobile.jpg" alt=""></a>
+          <figcaption>Mobile Development</figcaption>
+        </figure>
+      </li>
+    </ul>
+
+
+    
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+
+
+
+
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    
+    <div class="content"> 
+
+      <div id="comments">
+       <div class="one_half">
+      <h6 class="heading">Register Here</h6>
+      <form method="post" action="database_coding.php">
+          <input class="btmspace-15" type="text" name="name" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" name="email" value="" placeholder="Email">
+          <input class="btmspace-15" type="text" name="program" value="" placeholder="program">
+          <input class="btmspace-15" type="text" name="gender" value="" placeholder="Gender">
+          <input class="btmspace-15" type="text" name="mobile" value="" placeholder="Mobile no">
+          <input type="submit" name="submit" value="Submit Form">
+            &nbsp;
+          <input type="reset" name="reset" value="Reset Form">
+        </form>
+      </div>
+            
+    </div>
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; All Rights Reserved - <a href="#">Rakeshwar & Saurabh</a></p>
+    <p class="fl_right">REC Sonbhadra</a></p>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+
+<a id="backtotop" href=""><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
